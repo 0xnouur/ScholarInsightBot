@@ -77,8 +77,7 @@ scholar-profile-bot/
 ├── README.md
 ├── images/
 │   └── screenshot_main_output.png
-├── videos/
-│   └── scholar_scraper_demo.mp4
+
 ```
 
 ---
