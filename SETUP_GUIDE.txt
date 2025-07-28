@@ -1,0 +1,83 @@
+==============================
+📘 SETUP GUIDE – Scholar Scraper
+==============================
+
+This file will guide you through setting up the Scholar Scraper tool on your local machine.
+
+---
+
+🔧 REQUIREMENTS:
+- Python 3.8 or later
+- pip (Python package installer)
+- Firefox Browser
+- Geckodriver (to control Firefox via Selenium)
+
+---
+
+📦 STEP 1: Check Your Python Version
+Open a terminal and run:
+    python --version
+
+If it's older than 3.8, please update Python from:
+    https://www.python.org/downloads/
+
+---
+
+📦 STEP 2: Install Required Python Libraries
+
+Run this command in your terminal:
+    pip install selenium deep-translator
+
+Alternatively, if you have requirements.txt:
+    pip install -r requirements.txt
+
+---
+
+🦊 STEP 3: Install Firefox (if not already installed)
+Download from: https://www.mozilla.org/en-US/firefox/new/
+
+---
+
+🧰 STEP 4: Install Geckodriver (for Selenium to control Firefox)
+
+🔹 MACOS:
+If you use Homebrew:
+    brew install geckodriver
+
+Or download manually from:
+    https://github.com/mozilla/geckodriver/releases
+
+🔹 WINDOWS:
+1. Download geckodriver from:
+   https://github.com/mozilla/geckodriver/releases
+
+2. Extract the .zip file and move the geckodriver.exe into a folder (e.g., C:\WebDrivers)
+
+3. Add that folder to your System PATH:
+    - Start > type "Environment Variables"
+    - Edit the "Path" variable under System variables
+    - Add the folder path where geckodriver.exe is located
+    - Click OK and restart your terminal
+
+To test if installed correctly:
+    geckodriver --version
+
+---
+
+⚠️ TROUBLESHOOTING
+
+❗ Error: 'geckodriver' is not recognized as an internal or external command
+➡ Make sure geckodriver is in your PATH
+
+❗ Error: SessionNotCreatedException or browser mismatch
+➡ Check that your Firefox version and geckodriver version are compatible:
+   https://firefox-source-docs.mozilla.org/testing/geckodriver/geckodriver/Support.html
+
+---
+
+✅ YOU'RE READY!
+
+Now run the script:
+    python scholar_scraper.py
+
+Enjoy automated citation tracking & abstract translation!
