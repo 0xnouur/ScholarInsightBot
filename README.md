@@ -29,14 +29,6 @@ It performs the following actions:
 
 ---
 
-## 🎥 Demo Video
-
-Watch a short demo of the tool in action:
-
-[▶️ scholar_scraper_demo.mp4](videos/scholar_scraper_demo.mp4)
-
----
-
 ## 📸 Screenshot
 
 Below is a terminal screenshot showing the original and translated abstract output:
